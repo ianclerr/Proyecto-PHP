@@ -1,0 +1,150 @@
+.navigation {
+    height: 70px;
+    background: #001628;
+  }
+  
+  nav {
+    float: left;
+    width:100%;
+  }
+  
+  .nav-menu {
+    display:blocK;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background:#001628;
+  }
+  
+  nav ul li {
+    float: left;
+    position: relative;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 70px;
+    color: #72e0d1;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background: #2581dc;
+    color: #ffffff;
+  }
+  
+  nav ul li a:not(:only-child):after {
+    padding-left: 5px;
+    content: ' ▾';
+  }
+  
+  .nav-submenu {
+    width:auto;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: auto;
+    display: none;
+  }
+  
+  .nav-submenu li {
+     width: 100%;
+     white-space: nowrap;
+  }
+  
+  .nav-movil {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #001628;;
+    height: 70px;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 979px) {
+    .nav-movil {
+      display: block;
+    }
+  
+    .nav-menu {
+      display: none;
+      margin-top: 70px;
+    }
+    
+    .nav-menu li {
+      float: none;
+    }
+    .nav-menu li a {
+      padding: 20px;
+      line-height: 20px;
+    }
+    .nav-menu li ul li a {
+      padding-left: 30px;
+    }
+    
+    .nav-submenu {
+      position: static;
+    }
+  }
+  
+  @media screen and (min-width: 980px) {
+    .nav-menu {
+      display: block !important;
+    }  
+  }
+  
+  #nav-boton {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    cursor: pointer;
+    width:20px;
+    height: 10px;
+    padding: 5px 15px 15px 0px;
+    z-index:1;
+  }
+  
+  #nav-boton span,
+  #nav-boton span:after,
+  #nav-boton span:before {
+    transition: all 500ms ease-in-out;
+    border-radius: 1px;
+    height: 5px;
+    width: 40px;
+    position: absolute;
+    display: block;
+    content: "";
+    background: #fff;
+  }
+  
+  #nav-boton span:before {
+    top: -10px;
+  }
+  #nav-boton span:after {
+    bottom: -10px;
+  }
+  
+  #nav-boton.activo span {
+    background-color: transparent;
+  }
+  
+  #nav-boton.activo span:before,
+  #nav-boton.activo span:after {
+    top: 0;
+  }
+  
+  #nav-boton.activo span:after {
+    transform: rotate(-45deg);
+  }
+  
+  #nav-boton.activo span:before {
+    transform: rotate(45deg);
+  }
+.bidon{
+  width: 500px;
+}

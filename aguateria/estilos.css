@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: radial-gradient(circle at 60.4% 78.58%, #ff90ba 0, #ff83bb 16.67%, #f46fb6 33.33%, #d855ad 50%, #ba3ca5 66.67%, #9e2da2 83.33%, #862aa5 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.2); /* Fondo con transparencia */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 300px;
+}
+
+.input-style {
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.button-style {
+  background-image: radial-gradient(circle at 60.4% 78.58%, #ff90ba 0, #ff83bb 16.67%, #f46fb6 33.33%, #d855ad 50%, #ba3ca5 66.67%, #9e2da2 83.33%, #862aa5 100%);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+
+
+.message a {
+  color: #46a04c; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.message a:hover {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: radial-gradient(circle at 60.4% 78.58%, #ff90ba 0, #ff83bb 16.67%, #f46fb6 33.33%, #d855ad 50%, #ba3ca5 66.67%, #9e2da2 83.33%, #862aa5 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 300px;
+}
+
+.input-style {
+  background: rgba(255, 255, 255, 0.5); 
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.button-style {
+  background-image: radial-gradient(circle at 60.4% 78.58%, #ff90ba 0, #ff83bb 16.67%, #f46fb6 33.33%, #d855ad 50%, #ba3ca5 66.67%, #9e2da2 83.33%, #862aa5 100%);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+
+
+.message a {
+  color: #46a04c; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.message a:hover {
+  text-decoration: underline;
+}
+
